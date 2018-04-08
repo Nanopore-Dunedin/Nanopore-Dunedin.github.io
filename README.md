@@ -1,9 +1,10 @@
+
 ## Welcome to the Nanopore Dunedin Workshop 2018
 
 ## Structure
-1. [Day 1](./Structure.md#example)
-2. [Day 2](./Structure.md#example2)
-3. [Day 3](./Structure.md#third-example)
+1. [Day 1](./docs/Structure.md#Day1)
+2. [Day 2](./docs/Structure.md#Day2)
+3. [Day 3](./docs/Structure.md#Day3)
 
 ## Presentations
 1. [Wet lab presentations](https://google.com)
@@ -17,12 +18,22 @@
 ## Sponsors
 List of sponsors
 
-## Participants
+## Information for Participants
 ### Laptop requirements
 Platform: Windows 7+, MacOS, Ubuntu 14.04+  
-Sequencing laptop requirements: MinKNOW, Docker  
-Analysis laptop requirements: Vagrant, VirtualBox
+Sequencing laptop requirements:
+  + Hardware:
+    + USB-A port
+    + Wifi connection
+  + Software:
+    + MinKNOW 
+    + Docker
+Analysis laptop requirements: Vagrant, VirtualBox, wifi
 
 ## Organisers
 Tom Harrop:  
 [Alexis Lucattini](mailto:alexis.lucattini@agrf.org.au)
+Louise Judd  
+Benjamin Schwessinger  
+Kirston Barton  
+Christopher Winefield
