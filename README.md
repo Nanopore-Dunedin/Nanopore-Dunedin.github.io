@@ -37,6 +37,7 @@ Sequencing laptop requirements:
       + Windows/Mac - Specifically Docker toolbox
       + Ubuntu - Docker
     + Kitematic
+    
 Analysis laptop requirements: 
   + Hardware:
     + Wifi connection
