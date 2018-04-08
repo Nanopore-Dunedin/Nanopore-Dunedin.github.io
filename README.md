@@ -1,9 +1,9 @@
 ## Welcome to the Nanopore Dunedin Workshop 2018
 
 ## Structure
-1. [Day 1](./docs/Structure.md#Tuesday 17th - Day 1)
-2. [Day 2](./docs/Structure.md#Tuesday 18th - Day 2)
-3. [Day 3](./docs/Structure.md#Tuesday 19th - Day 3)
+1. [Day 1](./docs/Structure.md#Day1)
+2. [Day 2](./docs/Structure.md#Day2)
+3. [Day 3](./docs/Structure.md#Day3)
 
 ## Presentations
 1. [Wet lab presentations](https://google.com)
