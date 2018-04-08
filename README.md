@@ -24,5 +24,5 @@ Sequencing laptop requirements: MinKNOW, Docker
 Analysis laptop requirements: Vagrant, VirtualBox
 
 ## Organisers
-Tom Harrop:
+Tom Harrop:  
 [Alexis Lucattini](mailto:alexis.lucattini@agrf.org.au)
