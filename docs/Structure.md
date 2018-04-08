@@ -22,4 +22,4 @@
 
 ## Thursday 19th - Day 3  <a name="Day3"></a>
 09:00 - 12:00 Continue analysis  
-11:55 - 12:00 Close## Structure of the workshop  
+11:55 - 12:00 Close
