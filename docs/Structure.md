@@ -1,4 +1,4 @@
-## Tuesday 17th - Day 1
+## Tuesday 17th - Day 1 <a name="Day1"></a>
 09:45 - 10:00 Welcome & introduction  
 10:00 - 10:45 Talk: Simone Cree  
 10:45 - 11:00 Coffee  
@@ -8,7 +8,7 @@
 13:15 - 16:30 Library prep  
 16:30 - 17:30 Flowcell QC & start sequencing  
 
-## Wednesday 18th - Day 2
+## Wednesday 18th - Day 2 <a name="Day2"></a>
 09:00 - 09:15 Check FCs +/- stop sequencing  
 09:15 - 10:00 Talk: Benjamin Schwessinger  
 10:00 - 10:30 Coffee  
@@ -20,7 +20,6 @@
 14:30 - 14:45 Coffee  
 14:45 - 17:00 Analyse results  
 
-## Thursday 19th - Day 3  
-
+## Thursday 19th - Day 3  <a name="Day3"></a>
 09:00 - 12:00 Continue analysis  
 11:55 - 12:00 Close## Structure of the workshop  
