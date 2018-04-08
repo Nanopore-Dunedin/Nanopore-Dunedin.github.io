@@ -1,4 +1,6 @@
 
+
+
 ## Welcome to the Nanopore Dunedin Workshop 2018
 
 ## Structure
@@ -19,6 +21,10 @@
 List of sponsors
 
 ## Information for Participants
+### Etherpad link
+Etherpad is a simple online editor which we will use as a discussion forum in the workshops.
+[Click here](https://etherpad.net/p/nanopore-dunedin) to view our etherpad
+
 ### Laptop requirements
 Platform: Windows 7+, MacOS, Ubuntu 14.04+  
 Sequencing laptop requirements:
@@ -28,7 +34,16 @@ Sequencing laptop requirements:
   + Software:
     + MinKNOW 
     + Docker
-Analysis laptop requirements: Vagrant, VirtualBox, wifi
+      + Windows/Mac - Specifically Docker toolbox
+      + Ubuntu - Docker
+    + Kitematic
+Analysis laptop requirements: 
+  + Hardware:
+    + Wifi connection
+  + Software:
+    + Vagrant
+    + VirtualBox
+    + *Windows 10 users may need to uninstall Hyper-V in order to use Virtual Docker*
 
 ## Organisers
 Tom Harrop:  
