@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+## Welcome to the Nanopore Dunedin Workshop 2018
 
-You can use the [editor on GitHub](https://github.com/Nanopore-Dunedin/Nanopore-Dunedin/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Structure
+1. [Day 1](./structure.md#example)
+2. [Day 2](./structure.md#example2)
+3. [Day 3](./structure.md#third-example)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Presentations
+1. [Wet lab presentations](https://google.com)
+2. [Alignments, Quirks, Methylation and Assembly](https://google.com)
+3. []
 
-### Markdown
+## Workshops
+1. [Handling MinION data from your laptop](https://github.io/alexiswl/ASimpleNanoporeTutorial/index.html)
+2. [Handling fast5 data on a server](https://github.io/Nanopore-Dunedin/nanoporebox/index.html)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Sponsors
+List of sponsors
 
-```markdown
-Syntax highlighted code block
+## Participants
+### Laptop requirements
+Platform: Windows 7+, MacOS, Ubuntu 14.04+  
+Sequencing laptop requirements: MinKNOW, Docker  
+Analysis laptop requirements: Vagrant, VirtualBox
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Nanopore-Dunedin/Nanopore-Dunedin/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Organisers
+Tom Harrop:
+[Alexis Lucattini](mailto:alexis.lucattini@agrf.org.au)
