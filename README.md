@@ -11,7 +11,7 @@
 3. []
 
 ## Workshops
-1. [Handling MinION data from your laptop](https://github.io/alexiswl/ASimpleNanoporeTutorial/index.html)
+1. [Handling MinION data from your laptop](https://alexiswl.github.io/ASimpleNanoporeTutorial/running_poreduck.html)
 2. [Handling fast5 data on a server](https://github.io/Nanopore-Dunedin/nanoporebox/index.html)
 
 ## Sponsors
@@ -41,12 +41,12 @@ Analysis laptop requirements:
   + Software:
     + Vagrant
     + VirtualBox
-    + *Windows 10 users may need to uninstall Hyper-V in order to use Virtual Docker*
+    + *Windows 10 users may need to uninstall Hyper-V in order to use Vagrant and VirtualBox*
 
 ## Organisers
 Tom Harrop:  
-[Alexis Lucattini](mailto:alexis.lucattini@agrf.org.au)
+[Alexis Lucattini](mailto:alexis.lucattini@agrf.org.au)  
 Louise Judd  
 Benjamin Schwessinger  
 Kirston Barton  
-Christopher Winefield
+Christopher Winefield  
