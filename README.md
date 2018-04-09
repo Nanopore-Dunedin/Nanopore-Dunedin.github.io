@@ -12,7 +12,7 @@
 
 ## Workshops
 1. [Handling MinION data from your laptop](https://alexiswl.github.io/ASimpleNanoporeTutorial/running_poreduck.html)
-2. [Handling fast5 data on a server](https://github.io/Nanopore-Dunedin/nanoporebox/index.html)
+2. [Handling fast5 data on a server](./docs/vagrant_setup.md)
 
 ## Sponsors
 List of sponsors
