@@ -27,3 +27,8 @@ The VM has been uploaded to the Vagrant cloud, we can download it using the foll
 ### Shared folders
 By default, /vagrant on the VM is the mounted onto ~/Vagrant/nanopore_dunedin.  
 We can use this to visualise and input our data.
+
+### Running through Jupyter (advanced users)
+For those that are fans of having a documented version of their analysis,
+Jupyter is installed on the VM, however you will need to configure the vagrant file accordingly.  
+See [this link](http://pythondata.com/jupyter-vagrant/) for more details.  
