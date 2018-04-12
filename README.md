@@ -36,7 +36,7 @@ Sequencing laptop requirements:
     + Kitematic
     
 Analysis laptop requirements: 
-  + Hardware:
+  + Hardware:h
     + Wifi connection
   + Software:
     + Vagrant
@@ -44,9 +44,10 @@ Analysis laptop requirements:
     + *Windows 10 users may need to uninstall Hyper-V in order to use Vagrant and VirtualBox*
 
 ## Organisers
-Tom Harrop:  
+[Tom Harrop](mailto:tom.harrop@otago.ac.nz)  
 [Alexis Lucattini](mailto:alexis.lucattini@agrf.org.au)  
-Louise Judd  
-Benjamin Schwessinger  
-Kirston Barton  
-Christopher Winefield  
+[Louise Judd](mailto:lmj@unimelb.edu.au)  
+Benjamin Schwessinger(mailto:Benjamin.Schwessinger@anu.edu.au)  
+[Kirston Barton](mailto:k.barton@garvan.org.au)  
+[Christopher Winefield](mailto:Christopher.Winefield@lincoln.ac.nz)  
+[Simone Cree](mailto:simone.macmil@otago.ac.nz)  
