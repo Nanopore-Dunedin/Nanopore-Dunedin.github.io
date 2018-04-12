@@ -1,0 +1,65 @@
+---
+title: "Nanopore Sequencing Analysis"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    fig_caption: yes
+---
+
+## Preface
+This is a notebook that will go through some examples of basecalling, alignment, methylation and assembly for nanopore sequencing reads. 
+
+We will go through this tutorial during the session, but please feel free to go through the tutorial at your own pace.
+
+## Getting started
+The virtual box is provided by Vagrant. It's a modification of Ubuntu 16 with miniconda3, R and docker installed along with some non-conda installations such as albacore and nanopolish. 
+We will use docker to use any other apps. The enironment has been configured so that sudo is not required when using docker.
+
+### Console
+* Windows
+  + Git Bash
+* MacOS/Ubuntu
+  + Terminal
+
+### Installation
+After installing vagrant, use the following commands to download and load the vagrant file
+```{bash, eval=FALSE}
+# Create directory
+mkdir -p ~/Vagrant/nanopore_nz
+cd ~/Vagrant/nanopore_nz
+
+# Initilise vagrant configuration file
+vagrant init alexiswl/nanoporeVM
+# If you get the error 'vagrant command not found', try logging out and back in again.
+
+# Download the  vagrant box
+vagrant up
+# This will redirect to cloudstor. The file is large please be patient.
+# SSH into the vagrant box.
+vagrant ssh
+```
+
+### Jupyter
+For those that are fans of having a documented version of their analysis, Jupyter is installed on the VM, however you will need to configure the vagrant file accordingly.
+See [this link](http://pythondata.com/jupyter-vagrant/) for more details.
+
+### The data directory.
+The vagrant machine has a directory called /vagrant.  
+This is bound with the directory ~/Vagrant/nanopore_nz on the host machine.
+Any datasets we download today will be in this directory.
+**A note on owncloud. If a  directory is downloaded from owncloud, it will be downloaded automatically as a zip file.**
+
+## Basecalling
+Create the directory lambda in /vagrant/data.  
+`mkdir -p /vagrant/data/lambda`
+Download the mini-lambda dataset from [lambda_download]. Place it in the directory /vagrant/data/lambda.  
+`curl -O /vagrant/data/lambda/ webdav path`
+We will now create a basecalling bash script in /vagrant/data/lambda/basecalling_script
+If you are not comfortable in vim / nano or another terminal please open up Atom or Notepad++.
+
+<use the bash script from slurm to extract the data initially to /tmp and then pull out what we need>
+<show the options of read_fast5_basecaller.py>
+
+### The log files
+Plotting the log files in R

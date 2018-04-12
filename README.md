@@ -42,7 +42,8 @@ Platform: Windows 7+, MacOS, Ubuntu 14.04+
     + Vagrant
     + VirtualBox
     + *Windows 10 users may need to uninstall Hyper-V in order to use Vagrant and VirtualBox*
-
+	+ Atom (Optional text/code editor)
+	
 ## Organisers
 [Tom Harrop](mailto:tom.harrop@otago.ac.nz)  
 [Alexis Lucattini](mailto:alexis.lucattini@agrf.org.au)  
