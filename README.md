@@ -24,19 +24,19 @@ Etherpad is a simple online editor which we will use as a discussion forum in th
 
 ### Laptop requirements
 Platform: Windows 7+, MacOS, Ubuntu 14.04+  
-Sequencing laptop requirements:
+*Sequencing laptop requirements*:
   + Hardware:
     + USB-A port
     + Wifi connection
   + Software:
     + MinKNOW 
     + Docker
-      + Windows/Mac - Specifically Docker toolbox
+      + Windows/Mac - Specifically 'Docker toolbox'
       + Ubuntu - Docker
     + Kitematic
     
-Analysis laptop requirements: 
-  + Hardware:h
+*Analysis laptop requirements*: 
+  + Hardware:
     + Wifi connection
   + Software:
     + Vagrant
