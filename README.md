@@ -38,7 +38,7 @@ Platform: Windows 7+, MacOS, Ubuntu 14.04+
 [Louise Judd](mailto:lmj@unimelb.edu.au)  
 [Benjamin Schwessinger](mailto:Benjamin.Schwessinger@anu.edu.au)  
 [Kirston Barton](mailto:k.barton@garvan.org.au)  
-[Christopher Winefield](mailto:Christopher.Winefield@lincoln.ac.nz)
+[Christopher Winefield](mailto:Christopher.Winefield@lincoln.ac.nz)  
 [Simone Cree](mailto:simone.macmil@otago.ac.nz)  
 
 ## Presentations
