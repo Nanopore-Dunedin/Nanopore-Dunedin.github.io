@@ -47,19 +47,58 @@ See [this link](http://pythondata.com/jupyter-vagrant/) for more details.
 ### The data directory.
 The vagrant machine has a directory called /vagrant.  
 This is bound with the directory ~/Vagrant/nanopore_nz on the host machine.
-Any datasets we download today will be in this directory.
+Any datasets we download today will be in this directory.  
 **A note on owncloud. If a  directory is downloaded from owncloud, it will be downloaded automatically as a zip file.**
 
 ## Basecalling
-Create the directory lambda in /vagrant/data.  
-`mkdir -p /vagrant/data/lambda`
-Download the mini-lambda dataset from [lambda_download]. Place it in the directory /vagrant/data/lambda.  
-`curl -O /vagrant/data/lambda/ webdav path`
+
+Download the mini-lambda dataset from [lambda_download](https://cloudstor.aarnet.edu.au/plus/s/YF69Ppmh5xTg3LQ). Place it in the directory /vagrant/data/lambda and unzip it.  
+
+The commands to do are here.
+```{bash, eval=FALSE}
+# Create the directory /vagrant/data/lambda
+mkdir -p /vagrant/data/lambda
+# Write the zip file to /tmp
+TEMP_LAMBDA=`mktemp /tmp/lambda.XXXX.zip`
+curl -O ${TEMP_LAMBDA} https://cloudstor.aarnet.edu.au/plus/s/YF69Ppmh5xTg3LQ/download
+# Unzip download and move to /vagrant/data/lambda
+unzip ${TEMP_LAMBDA}
+mv ${TEMP_LAMBDA%.zip} /vagrant/data/lambda
+```
+
 We will now create a basecalling bash script in /vagrant/data/lambda/basecalling_script
-If you are not comfortable in vim / nano or another terminal please open up Atom or Notepad++.
+If you are not comfortable in vim / nano or another terminal please open up Atom or Notepad++ and create the file in the appropriate folder. If you are on a Windows machine, ensure that the carriage return is off.
 
 <use the bash script from slurm to extract the data initially to /tmp and then pull out what we need>
 <show the options of read_fast5_basecaller.py>
 
 ### The log files
-Plotting the log files in R
+Plotting the log files in R.
+The read_fast5_basecaller places a [tidy dataframe](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) in the output.    
+We can use this to:  
+1. Plot the yield data over time.  
+2. Plot the ratio of pass and failed reads.  
+3. Generate a histogram of the read lengths generated.  
+Bonus:
+4. Use the average quality column to create a plot of the average quality over the read-length.
+
+
+## Nanoplot QC.
+If learning the tidyverse was not your cup of tea.
+We get nanoplot to do this for us.
+Nanoplot is a simple tool to grab a few metrics post-basecalling.
+
+<nanoplot commands>
+
+## Data trimming
+Trimming the read data with porechop. Extracting the logs.
+
+
+## Alignment.
+There are a few options for alignment, but the most popular and current aligner for nanopore sequencing is minimap2.
+minimap2 was created by the author of bwa-mem and samtools.
+
+
+## Assembly.
+
+

@@ -258,6 +258,26 @@ vagrant ssh</code></pre>
 <h3>Jupyter</h3>
 <p>For those that are fans of having a documented version of their analysis, Jupyter is installed on the VM, however you will need to configure the vagrant file accordingly. See <a href="http://pythondata.com/jupyter-vagrant/">this link</a> for more details.</p>
 </div>
+<div id="the-data-directory." class="section level3">
+<h3>The data directory.</h3>
+<p>The vagrant machine has a directory called /vagrant.<br />
+This is bound with the directory ~/Vagrant/nanopore_nz on the host machine. Any datasets we download today will be in this directory. <strong>A note on owncloud. If a directory is downloaded from owncloud, it will be downloaded automatically as a zip file.</strong></p>
+</div>
+</div>
+<div id="basecalling" class="section level2">
+<h2>Basecalling</h2>
+<p>Create the directory lambda in /vagrant/data.<br />
+<code>mkdir -p /vagrant/data/lambda</code> Download the mini-lambda dataset from [lambda_download]. Place it in the directory /vagrant/data/lambda.<br />
+<code>curl -O /vagrant/data/lambda/ webdav path</code> We will now create a basecalling bash script in /vagrant/data/lambda/basecalling_script If you are not comfortable in vim / nano or another terminal please open up Atom or Notepad++.</p>
+<p><use the bash script from slurm to extract the data initially to tmp and then pull out what we need> <show the options of read_fast5_basecaller.py></p>
+<div id="the-log-files" class="section level3">
+<h3>The log files</h3>
+<p>Plotting the log files in R. The read_fast5_basecaller places a <a href="https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html">tidy dataframe</a> in the output.<br />
+We can use this to: 1. Plot the yield data over time.<br />
+2. Plot the ratio of pass and failed reads.<br />
+3. Generate a histogram of the read lengths generated.<br />
+Bonus: 4. Use the average quality column to create a plot of the average quality over the read-length.</p>
+</div>
 </div>
 
 

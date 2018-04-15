@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+
+# Viewing the alignment with pysam
+
+# Use the md tag to grab the alignment length
+
+# Get the nm tag.
+
+# Write the output as a dataframe.
+
+# We will then plot this in R.
