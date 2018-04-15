@@ -5,18 +5,6 @@
 2. [Day 2](./docs/Structure.md#Day2)
 3. [Day 3](./docs/Structure.md#Day3)
 
-## Presentations
-1. [Wet lab presentations](https://google.com)
-2. [Alignments, Quirks, Methylation and Assembly](https://google.com)
-3. []
-
-## Workshops
-1. [Handling MinION data from your laptop](https://alexiswl.github.io/ASimpleNanoporeTutorial/running_poreduck.html)
-2. [Handling fast5 data on a server](./docs/vagrant_setup.md)
-
-## Sponsors
-List of sponsors
-
 ## Information for Participants
 ### Etherpad link
 Etherpad is a simple online editor which we will use as a discussion forum in the workshops.
@@ -48,7 +36,18 @@ Platform: Windows 7+, MacOS, Ubuntu 14.04+
 [Tom Harrop](mailto:tom.harrop@otago.ac.nz)  
 [Alexis Lucattini](mailto:alexis.lucattini@agrf.org.au)  
 [Louise Judd](mailto:lmj@unimelb.edu.au)  
-Benjamin Schwessinger(mailto:Benjamin.Schwessinger@anu.edu.au)  
+[Benjamin Schwessinger](mailto:Benjamin.Schwessinger@anu.edu.au)  
 [Kirston Barton](mailto:k.barton@garvan.org.au)  
 [Christopher Winefield](mailto:Christopher.Winefield@lincoln.ac.nz)  
 [Simone Cree](mailto:simone.macmil@otago.ac.nz)  
+
+## Presentations
+1. [Wet lab presentations](https://google.com)
+2. [Alignments, Quirks, Methylation and Assembly](https://google.com)
+
+## Workshops
+1. [Handling MinION data from your laptop](https://alexiswl.github.io/ASimpleNanoporeTutorial/running_poreduck.html)
+2. [Handling fast5 data on a server](./docs/vagrant_setup.md)
+
+## Sponsors
+List of sponsors
