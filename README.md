@@ -39,6 +39,7 @@ Platform: Windows 7+, MacOS, Ubuntu 14.04+
 [Benjamin Schwessinger](mailto:Benjamin.Schwessinger@anu.edu.au)  
 [Kirston Barton](mailto:k.barton@garvan.org.au)  
 [Christopher Winefield](mailto:Christopher.Winefield@lincoln.ac.nz)
+[Simone Cree](mailto:simone.macmil@otago.ac.nz)  
 
 ## Presentations
 1. [Wet lab presentations](https://google.com)
@@ -50,4 +51,3 @@ Platform: Windows 7+, MacOS, Ubuntu 14.04+
 
 ## Sponsors
 List of sponsors
-[Simone Cree](mailto:simone.macmil@otago.ac.nz)  
