@@ -22,8 +22,11 @@ We will use docker to use any other apps. The enironment has been configured so 
 * MacOS/Ubuntu
   + Terminal
 
-### Installation
-After installing vagrant, use the following commands to download and load the vagrant file
+### VM Installation
+After installing vagrant, use one of the following options and subsequent commands to load the virtual machine.
+
+#### Option 1:Downloading the VM - preferred
+The VM has been uploaded to the Vagrant cloud, we can download it using the following commands.
 ```{bash, eval=FALSE}
 # Create directory
 mkdir -p ~/Vagrant/nanopore_nz
@@ -38,6 +41,31 @@ vagrant up
 # This will redirect to cloudstor. The file is large please be patient.
 # SSH into the vagrant box.
 vagrant ssh
+```
+
+#### Option 2: Importing the VM via USB.
+In the somewhat likely event that the Wifi router cannot handle 20 users each downloading a 4 Gb file at once, three USB sticks have been loaded with the VM which can be added manually.
+```{bash, eval=FALSE}
+# Create the VM directory
+mkdir -p ~/Vagrant/nanopore_dunedin/  
+
+# Change into the VM directory
+cd ~/Vagrant/nanopore_dunedin/
+
+# Move across the Vagrant box from the USB onto your computer.
+# You can use your file explorer to drop and drag into your preferred location
+
+# Add the vagrant box
+vagrant box add alexiswl/nanoporeVM /localpath/to/vagrant-box.box
+
+# Generate the relevant Vagrant file
+vagrant init alexiswl/nanoporeVM
+# If you cannot find the vagrant command, try logging out and back in again*
+# SSH into the vagrant box.
+vagrant ssh
+
+#You should now be user vagrant@xenial_ont
+xenial is the 'codename' for Ubuntu 16.
 ```
 
 ### Jupyter
@@ -67,10 +95,9 @@ mv ${TEMP_LAMBDA%.zip} /vagrant/data/lambda
 ```
 
 We will now create a basecalling bash script in /vagrant/data/lambda/basecalling_script
-If you are not comfortable in vim / nano or another terminal please open up Atom or Notepad++ and create the file in the appropriate folder. If you are on a Windows machine, ensure that the carriage return is off.
+If you are not comfortable in vim / nano or another terminal please open up Atom or Notepad++ and create the file in the appropriate folder. If you are on a Windows machine, ensure that the carriage return is off - CRLF to LF (Bottom left hand corner of the IDE).
 
-<use the bash script from slurm to extract the data initially to /tmp and then pull out what we need>
-<show the options of read_fast5_basecaller.py>
+[Click here]() to download the basecalling template.
 
 ### The log files
 Plotting the log files in R.
