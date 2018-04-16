@@ -7,7 +7,7 @@ run_basecaller <input_tar> <output_folder
 INPUT_TAR=$1 # First command line argument
 OUTPUT_DIR=$2 # Second command line argument
 
-SUBFOLDER_NAME=$(basename ${INPUT_TAR%.tar.gz})
+SUBFOLDER_NAME=$(basename ${INPUT_TAR%fast5..tar.gz})
 
 # Create a /tmp directory where we will extract our tar ball to.
 TMP_EXT=`mktemp -d /tmp/fast5.XXXXX`
