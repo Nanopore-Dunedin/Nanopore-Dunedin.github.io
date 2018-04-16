@@ -7,7 +7,7 @@
 
 ## Presentations
 1. [Simone Cree](mailto:simone.macmil@otago.ac.nz):
-    - [TBA](link)
+    - [Long read nanopore sequencing in the laboratory](https://drive.google.com/file/d/1HOKSwutiWD6j_7RFsfGMw146fOSxJPRJ/view?usp=sharing)
 2. [Chris Winefield](mailto:Christopher.Winefield@lincoln.ac.nz):
     - [Oxford Nanopore Sequencing in recalcitrant plant species](https://drive.google.com/file/d/1S-2qns28s-hQkldCxjQ_JsTGzD4Zrwej/view?usp=sharing)
 3. [Benjamin Schwessinger](mailto:Benjamin.Schwessinger@anu.edu.au):
@@ -51,9 +51,10 @@ Platform: Windows 7+, MacOS, Ubuntu 14.04+
 	+ Atom (Optional text/code editor)
 	
 ## Organisers
-[Tom Harrop](mailto:tom.harrop@otago.ac.nz)  
-[Angela Hendry](mailto:genomics.aotearoa@otago.ac.nz)  
-[Andy Nilsen](mailto:andy.nilsen@otago.ac.nz)  
++ [Tom Harrop](mailto:tom.harrop@otago.ac.nz)  
+    - [Welcome slides](./docs/slides/welcome.pdf)
++ [Angela Hendry](mailto:genomics.aotearoa@otago.ac.nz)  
++ [Andy Nilsen](mailto:andy.nilsen@otago.ac.nz)  
 
 ## Sponsors
 List of sponsors
