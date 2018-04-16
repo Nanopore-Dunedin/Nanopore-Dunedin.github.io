@@ -43,7 +43,8 @@ Platform: Windows 7+, MacOS, Ubuntu 14.04+
 
 ## Presentations
 1. [Simone Cree](mailto:simone.macmil@otago.ac.nz): [Title](link)
-2. [Chris Winefield](mailto:Christopher.Winefield@lincoln.ac.nz): [Oxford Nanopore Sequencing in recalcitrant plant species](https://drive.google.com/file/d/1S-2qns28s-hQkldCxjQ_JsTGzD4Zrwej/view?usp=sharing)
+2. [Chris Winefield](mailto:Christopher.Winefield@lincoln.ac.nz):
+    - [Oxford Nanopore Sequencing in recalcitrant plant species](https://drive.google.com/file/d/1S-2qns28s-hQkldCxjQ_JsTGzD4Zrwej/view?usp=sharing)
 1. [Wet lab presentations](https://google.com)
 (https://drive.google.com/file/d/1S-2qns28s-hQkldCxjQ_JsTGzD4Zrwej/view?usp=sharing)
 2. [Alignments, Quirks, Methylation and Assembly](https://google.com)
