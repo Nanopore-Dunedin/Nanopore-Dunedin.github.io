@@ -7,13 +7,13 @@
 
 ## Presentations
 1. [Simone Cree](mailto:simone.macmil@otago.ac.nz):
-    - [Title](link)
+    - [TBA](link)
 2. [Chris Winefield](mailto:Christopher.Winefield@lincoln.ac.nz):
     - [Oxford Nanopore Sequencing in recalcitrant plant species](https://drive.google.com/file/d/1S-2qns28s-hQkldCxjQ_JsTGzD4Zrwej/view?usp=sharing)
 3. [Benjamin Schwessinger](mailto:Benjamin.Schwessinger@anu.edu.au):
-    - [Title](link)
+    - [TBA](link)
 4. [Louise Judd](mailto:lmj@unimelb.edu.au):
-    - [Title](link)
+    - [TBA](link)
 5. [Kirston Barton](mailto:k.barton@garvan.org.au):
     - [HMW DNA on Nanopore](https://drive.google.com/open?id=1HAXkELHUmEcNlgDcumCxbdw8cUB9wx6u)
 6. [Alexis Lucattini](mailto:alexis.lucattini@agrf.org.au):
