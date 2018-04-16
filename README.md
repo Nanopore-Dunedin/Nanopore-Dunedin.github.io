@@ -10,14 +10,18 @@
     - [Title](link)
 2. [Chris Winefield](mailto:Christopher.Winefield@lincoln.ac.nz):
     - [Oxford Nanopore Sequencing in recalcitrant plant species](https://drive.google.com/file/d/1S-2qns28s-hQkldCxjQ_JsTGzD4Zrwej/view?usp=sharing)
-3. [Benjamin Schwessinger](mailto:Benjamin.Schwessinger@anu.edu.au)  
+3. [Benjamin Schwessinger](mailto:Benjamin.Schwessinger@anu.edu.au):
     - [Title](link)
-4. [Louise Judd](mailto:lmj@unimelb.edu.au)    
+4. [Louise Judd](mailto:lmj@unimelb.edu.au):
     - [Title](link)
-5. [Kirston Barton](mailto:k.barton@garvan.org.au)    
+5. [Kirston Barton](mailto:k.barton@garvan.org.au):
     - [HMW DNA on Nanopore](https://drive.google.com/open?id=1HAXkELHUmEcNlgDcumCxbdw8cUB9wx6u)
-6. [Alexis Lucattini](mailto:alexis.lucattini@agrf.org.au)  
+6. [Alexis Lucattini](mailto:alexis.lucattini@agrf.org.au):
     - [Alignments, Quirks, Methylation and Assembly](https://google.com)
+
+## Tutorials
+1. [Handling MinION data from your laptop](https://alexiswl.github.io/ASimpleNanoporeTutorial/running_poreduck.html)
+2. [Handling fast5 data on a server](./docs/vagrant_setup.md)
 
 ## Information for Participants
 ### Etherpad link
@@ -48,12 +52,8 @@ Platform: Windows 7+, MacOS, Ubuntu 14.04+
 	
 ## Organisers
 [Tom Harrop](mailto:tom.harrop@otago.ac.nz)  
-[Angela Hendry](mailto:genomics.aotearoa@otago.ac.nz)
-[Andy Nilsen](mailto:andy.nilsen@otago.ac.nz)
-
-## Workshops
-1. [Handling MinION data from your laptop](https://alexiswl.github.io/ASimpleNanoporeTutorial/running_poreduck.html)
-2. [Handling fast5 data on a server](./docs/vagrant_setup.md)
+[Angela Hendry](mailto:genomics.aotearoa@otago.ac.nz)  
+[Andy Nilsen](mailto:andy.nilsen@otago.ac.nz)  
 
 ## Sponsors
 List of sponsors
