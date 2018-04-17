@@ -47,6 +47,7 @@ Platform: Windows 7+, MacOS, Ubuntu 14.04+
 
 ## Workshops
 1. [Handling MinION data from your laptop](https://alexiswl.github.io/ASimpleNanoporeTutorial/running_poreduck.html)
+	+ [Default SampleSheet](https://github.com/alexiswl/ASimpleNanoporeTutorial/blob/master/samplesheet.tsv)
 2. [Handling fast5 data on a server](./docs/vagrant_setup.md)
 
 ## Sponsors
