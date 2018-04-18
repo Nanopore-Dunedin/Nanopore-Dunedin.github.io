@@ -289,22 +289,22 @@ vagrant ssh
 <div id="the-data-directory." class="section level3">
 <h3>The data directory.</h3>
 <p>The vagrant machine has a directory called /vagrant.<br />
-This is bound with the directory ~/Vagrant/nanopore_nz on the host machine. Any datasets we download today will be in this <a href="https://cloudstor.aarnet.edu.au/plus/f/1603892243">directory</a>.</p>
+This is bound with the directory ~/Vagrant/nanopore_nz on the host machine. Any datasets we download today will be in this <a href="https://cloudstor.aarnet.edu.au/plus/s/f841gxnWdCj6x2A">directory</a>.</p>
 <p><strong>A note on owncloud. If a directory is downloaded from owncloud, it will be downloaded automatically as a zip file.</strong></p>
 </div>
 </div>
 <div id="basecalling" class="section level2">
 <h2>Basecalling</h2>
-<p>Download the DCM E cocli data set. The data was run on the standard ligation 1D kit with R 9.4 chemistry. The DNA has been PCR amplified.</p>
+<p>Download the DCM E cosli data set. The data was run on the standard ligation 1D kit with R 9.4 chemistry. The DNA has been PCR amplified.</p>
 <p>The commands to do are here.</p>
-<pre class="bash"><code># Create the directory /vagrant/data/lambda
-mkdir -p /vagrant/data/lambda
+<pre class="bash"><code># Create the directory /vagrant/data/ecoli
+mkdir -p /vagrant/data/ecoli_dcm_dam
 # Write the zip file to /tmp
-TEMP_LAMBDA=`mktemp /tmp/lambda.XXXX.zip`
+TEMP_LAMBDA=`mktemp /tmp/ecoli.XXXX.zip`
 curl -O ${TEMP_LAMBDA} https://cloudstor.aarnet.edu.au/plus/s/YF69Ppmh5xTg3LQ/download
 # Unzip download and move to /vagrant/data/lambda
 unzip ${TEMP_LAMBDA}
-mv ${TEMP_LAMBDA%.zip} /vagrant/data/lambda</code></pre>
+mv ${TEMP_LAMBDA%.zip} /vagrant/data/ecoli</code></pre>
 <p>We will now create a basecalling bash script in /vagrant/data/lambda/basecalling_script If you are not comfortable in vim / nano or another terminal please open up Atom or Notepad++ and create the file in the appropriate folder. If you are on a Windows machine, ensure that the carriage return is off - CRLF to LF (Bottom left hand corner of the IDE).</p>
 <p><a href="https://raw.githubusercontent.com/Nanopore-Dunedin/Nanopore-Dunedin.github.io/master/docs/workshop/templates/run_albacore.sh">Click here</a> to download the basecalling shell script template.</p>
 <p><a href="https://raw.githubusercontent.com/Nanopore-Dunedin/Nanopore-Dunedin.github.io/master/docs/workshop/solutions/run_albacore.sh">Click here</a> to view a solution to the basecalling script.</p>

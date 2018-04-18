@@ -75,25 +75,25 @@ See [this link](http://pythondata.com/jupyter-vagrant/) for more details.
 ### The data directory.
 The vagrant machine has a directory called /vagrant.  
 This is bound with the directory ~/Vagrant/nanopore_nz on the host machine.
-Any datasets we download today will be in this [directory](https://cloudstor.aarnet.edu.au/plus/f/1603892243).  
+Any datasets we download today will be in this [directory](https://cloudstor.aarnet.edu.au/plus/s/f841gxnWdCj6x2A).  
 
 
 **A note on owncloud. If a  directory is downloaded from owncloud, it will be downloaded automatically as a zip file.**
 
 ## Basecalling
 
-Download the DCM E cocli data set. The data was run on the standard ligation 1D kit with R 9.4 chemistry. The DNA has been PCR amplified.
+Download the DCM E cosli data set. The data was run on the standard ligation 1D kit with R 9.4 chemistry. The DNA has been PCR amplified.
 
 The commands to do are here.
 ```{bash, eval=FALSE}
-# Create the directory /vagrant/data/lambda
-mkdir -p /vagrant/data/lambda
+# Create the directory /vagrant/data/ecoli
+mkdir -p /vagrant/data/ecoli_dcm_dam
 # Write the zip file to /tmp
-TEMP_LAMBDA=`mktemp /tmp/lambda.XXXX.zip`
+TEMP_LAMBDA=`mktemp /tmp/ecoli.XXXX.zip`
 curl -O ${TEMP_LAMBDA} https://cloudstor.aarnet.edu.au/plus/s/YF69Ppmh5xTg3LQ/download
 # Unzip download and move to /vagrant/data/lambda
 unzip ${TEMP_LAMBDA}
-mv ${TEMP_LAMBDA%.zip} /vagrant/data/lambda
+mv ${TEMP_LAMBDA%.zip} /vagrant/data/ecoli
 ```
 
 We will now create a basecalling bash script in /vagrant/data/lambda/basecalling_script
