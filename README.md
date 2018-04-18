@@ -7,8 +7,9 @@
 
 ## Information for Participants
 ### Etherpad link
-Etherpad is a simple online editor which we will use as a discussion forum in the workshops.
-[Click here](https://etherpad.net/p/nanopore-dunedin) to view our etherpad
+Etherpad is a simple online editor which we will use as a discussion forum in the workshops.  
+[Click here](https://etherpad.net/p/nanopore-dunedin) to view our etherpad.
+[Click here](./docs/workshop/tutorial.html)
 
 ### Laptop requirements
 Platform: Windows 7+, MacOS, Ubuntu 14.04+  
