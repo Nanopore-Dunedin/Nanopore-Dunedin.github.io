@@ -278,8 +278,8 @@ vagrant init alexiswl/nanoporeVM
 # SSH into the vagrant box.
 vagrant ssh
 
-#You should now be user vagrant@xenial_ont
-xenial is the 'codename' for Ubuntu 16.</code></pre>
+# You should now be user vagrant@xenial_ont
+# xenial is the 'codename' for Ubuntu 16.</code></pre>
 </div>
 </div>
 <div id="jupyter" class="section level3">
@@ -289,13 +289,13 @@ xenial is the 'codename' for Ubuntu 16.</code></pre>
 <div id="the-data-directory." class="section level3">
 <h3>The data directory.</h3>
 <p>The vagrant machine has a directory called /vagrant.<br />
-This is bound with the directory ~/Vagrant/nanopore_nz on the host machine. Any datasets we download today will be in this directory.<br />
-<strong>A note on owncloud. If a directory is downloaded from owncloud, it will be downloaded automatically as a zip file.</strong></p>
+This is bound with the directory ~/Vagrant/nanopore_nz on the host machine. Any datasets we download today will be in this <a href="https://cloudstor.aarnet.edu.au/plus/f/1603892243">directory</a>.</p>
+<p><strong>A note on owncloud. If a directory is downloaded from owncloud, it will be downloaded automatically as a zip file.</strong></p>
 </div>
 </div>
 <div id="basecalling" class="section level2">
 <h2>Basecalling</h2>
-<p>Download the mini-lambda dataset from <a href="https://cloudstor.aarnet.edu.au/plus/s/YF69Ppmh5xTg3LQ">lambda_download</a>. Place it in the directory /vagrant/data/lambda and unzip it.</p>
+<p>Download the DCM E cocli data set. The data was run on the standard ligation 1D kit with R 9.4 chemistry. The DNA has been PCR amplified.</p>
 <p>The commands to do are here.</p>
 <pre class="bash"><code># Create the directory /vagrant/data/lambda
 mkdir -p /vagrant/data/lambda
@@ -306,7 +306,8 @@ curl -O ${TEMP_LAMBDA} https://cloudstor.aarnet.edu.au/plus/s/YF69Ppmh5xTg3LQ/do
 unzip ${TEMP_LAMBDA}
 mv ${TEMP_LAMBDA%.zip} /vagrant/data/lambda</code></pre>
 <p>We will now create a basecalling bash script in /vagrant/data/lambda/basecalling_script If you are not comfortable in vim / nano or another terminal please open up Atom or Notepad++ and create the file in the appropriate folder. If you are on a Windows machine, ensure that the carriage return is off - CRLF to LF (Bottom left hand corner of the IDE).</p>
-<p><a href="https://raw.githubusercontent.com/Nanopore-Dunedin/Nanopore-Dunedin.github.io/master/docs/workshop/templates/running_the_basecaller.sh">Click here</a> to download the basecalling shell script template.</p>
+<p><a href="https://raw.githubusercontent.com/Nanopore-Dunedin/Nanopore-Dunedin.github.io/master/docs/workshop/templates/run_albacore.sh">Click here</a> to download the basecalling shell script template.</p>
+<p><a href="https://raw.githubusercontent.com/Nanopore-Dunedin/Nanopore-Dunedin.github.io/master/docs/workshop/solutions/run_albacore.sh">Click here</a> to view a solution to the basecalling script.</p>
 <div id="the-log-files" class="section level3">
 <h3>The log files</h3>
 <p>Plotting the log files in R. The read_fast5_basecaller places a <a href="https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html">tidy dataframe</a> in the output.<br />
@@ -315,12 +316,15 @@ We can use this to:<br />
 2. Plot the ratio of pass and failed reads.<br />
 3. Generate a histogram of the read lengths generated.<br />
 Bonus: 4. Use the average quality column to create a plot of the average quality over the read-length.</p>
+<p><a href="https://raw.githubusercontent.com/Nanopore-Dunedin/Nanopore-Dunedin.github.io/master/docs/workshop/templates/plot_basecalling.R">Click here</a> to view the plotting in R template.</p>
+<p><a href="https://raw.githubusercontent.com/Nanopore-Dunedin/Nanopore-Dunedin.github.io/master/docs/workshop/solutions/plot_basecalling.R">Click here</a> to view a solution to the R plots.</p>
 </div>
 </div>
 <div id="nanoplot-qc." class="section level2">
 <h2>Nanoplot QC.</h2>
 <p>If learning the tidyverse was not your cup of tea. We get nanoplot to do this for us. Nanoplot is a simple tool to grab a few metrics post-basecalling.</p>
-<p><nanoplot commands></p>
+<p><a href="https://raw.githubusercontent.com/Nanopore-Dunedin/Nanopore-Dunedin.github.io/master/docs/workshop/templates/run_nanoplot.sh">Click here</a> to view the nanoplot template</p>
+<p><a href="https://raw.githubusercontent.com/Nanopore-Dunedin/Nanopore-Dunedin.github.io/master/docs/workshop/solutions/run_nanoplot.sh">Click here</a> to view a solution to the nanoplot command</p>
 </div>
 <div id="data-trimming" class="section level2">
 <h2>Data trimming</h2>
@@ -329,9 +333,21 @@ Bonus: 4. Use the average quality column to create a plot of the average quality
 <div id="alignment." class="section level2">
 <h2>Alignment.</h2>
 <p>There are a few options for alignment, but the most popular and current aligner for nanopore sequencing is minimap2. minimap2 was created by the author of bwa-mem and samtools.</p>
+<div id="analysing-the-alignment-files." class="section level3">
+<h3>Analysing the alignment files.</h3>
+<p>Download this python script into your vagrant directory. Using the arguments x and y, we’re going to run this on our bam files to generate two tab delimited text files for each bam file. .error.tsv and .supp.tsv.</p>
+<p>The error.tsv file has the following columns: + QueryName - the fastq identifier + EditDistance. + AlignmentLength.</p>
+<p>The supp.tsv file has the following columns, where P stands for Primary and S - supplementary: + QueryName + P_ReferenceStart + P_ReferenceEnd + P_IsReverse + P_AlignmentLength + P_AlignmentStart + P_AlignmentEnd + P_MappingQuality + S_ReferenceStart + S_ReferenceEnd + S_IsReverse + S_AlignmentLength + S_AlignmentStart + S_AlignmentEnd + S_Mapping Quality</p>
+<div id="lets-head-back-to-the-tidyverse-and-analyse-the-alignment-files." class="section level4">
+<h4>Let’s head back to the tidyverse and analyse the alignment files.</h4>
+<p><a href="https://raw.githubusercontent.com/Nanopore-Dunedin/Nanopore-Dunedin.github.io/master/docs/workshop/templates/plot_alignments.R">Click here</a> to view the alignment template</p>
+<p><a href="https://raw.githubusercontent.com/Nanopore-Dunedin/Nanopore-Dunedin.github.io/master/docs/workshop/solutions/plot_alignments.R">Click here</a> to view a solution to the alignment plots.</p>
+</div>
+</div>
 </div>
 <div id="assembly." class="section level2">
 <h2>Assembly.</h2>
+<p>Download the plasmid dataset from <a href="https://cloudstor.aarnet.edu.au/plus/s/yK11fmUbjOQGCZV">here</a> &lt; ## We’ll run this through miniasm and racon.</p>
 </div>
 
 
