@@ -5,11 +5,30 @@
 2. [Day 2](./docs/Structure.md#Day2)
 3. [Day 3](./docs/Structure.md#Day3)
 
+## Presentations
+1. [Simone Cree](mailto:simone.macmil@otago.ac.nz):
+    - [Long read nanopore sequencing in the laboratory](https://drive.google.com/file/d/1HOKSwutiWD6j_7RFsfGMw146fOSxJPRJ/view?usp=sharing)
+2. [Chris Winefield](mailto:Christopher.Winefield@lincoln.ac.nz):
+    - [Oxford Nanopore Sequencing in recalcitrant plant species](https://drive.google.com/file/d/1S-2qns28s-hQkldCxjQ_JsTGzD4Zrwej/view?usp=sharing)
+3. [Benjamin Schwessinger](mailto:Benjamin.Schwessinger@anu.edu.au):
+    - [TBA](link)
+4. [Louise Judd](mailto:lmj@unimelb.edu.au):
+    - [TBA](link)
+5. [Kirston Barton](mailto:k.barton@garvan.org.au):
+    - [HMW DNA on Nanopore](https://drive.google.com/open?id=1HAXkELHUmEcNlgDcumCxbdw8cUB9wx6u)
+6. [Alexis Lucattini](mailto:alexis.lucattini@agrf.org.au):
+    - [Alignments, Quirks, Methylation and Assembly](https://alexiswl.github.io/presentations/nanopore_dunedin/nanopore_dunedin.html)
+
+## Tutorials
+1. [Handling MinION data from your laptop](https://alexiswl.github.io/ASimpleNanoporeTutorial/running_poreduck.html)
+2. [Setting up a virtual environment](./docs/vagrant_setup.md)
+3. [Handling fast5 data on a server](./docs/workshop/tutorial.html)
+
 ## Information for Participants
 ### Etherpad link
 Etherpad is a simple online editor which we will use as a discussion forum in the workshops.  
-[Click here](https://etherpad.net/p/nanopore-dunedin) to view our etherpad.
-[Click here](./docs/workshop/tutorial.html)
+[Click here](https://etherpad.net/p/nanopore-dunedin) to view our etherpad.  
+[Click here](./docs/workshop/tutorial.html) for the tutorial Markdown sheet.
 
 ### Laptop requirements
 Platform: Windows 7+, MacOS, Ubuntu 14.04+  
@@ -34,22 +53,10 @@ Platform: Windows 7+, MacOS, Ubuntu 14.04+
 	+ Atom (Optional text/code editor)
 	
 ## Organisers
-[Tom Harrop](mailto:tom.harrop@otago.ac.nz)  
-[Alexis Lucattini](mailto:alexis.lucattini@agrf.org.au)  
-[Louise Judd](mailto:lmj@unimelb.edu.au)  
-[Benjamin Schwessinger](mailto:Benjamin.Schwessinger@anu.edu.au)  
-[Kirston Barton](mailto:k.barton@garvan.org.au)  
-[Christopher Winefield](mailto:Christopher.Winefield@lincoln.ac.nz)  
-[Simone Cree](mailto:simone.macmil@otago.ac.nz)  
++ [Tom Harrop](mailto:tom.harrop@otago.ac.nz)  
+    - [Welcome slides](./docs/slides/welcome.pdf)
++ [Angela Hendry](mailto:genomics.aotearoa@otago.ac.nz)  
++ [Andy Nilsen](mailto:andy.nilsen@otago.ac.nz)  
 
-## Presentations
-1. [Wet lab presentations](https://google.com)
-2. [Alignments, Quirks, Methylation and Assembly](https://google.com)
-
-## Workshops
-1. [Handling MinION data from your laptop](https://alexiswl.github.io/ASimpleNanoporeTutorial/running_poreduck.html)
-	+ [Default SampleSheet](https://github.com/alexiswl/ASimpleNanoporeTutorial/blob/master/samplesheet.tsv)
-2. [Handling fast5 data on a server](./docs/vagrant_setup.md)
-
-## Sponsors
-List of sponsors
+## Thanks to
+[Genomics Aotearoa](https://www.otago.ac.nz/biochemistry/research/themes/otago673820.html)
