@@ -20,7 +20,7 @@ def extract_alignment_error_metrics_from_bam(bam):
     scale by aligned read length
     """
     bam_h = pysam.AlignmentFile(bam, "rb")
-    return [(read.get_tag("NM"), read.query_alignment_length)
+    return [(read.query_name, read.get_tag("NM"), read.query_alignment_length)
             for read in bam_h.fetch()
             if read.get_tag("tp") == "P"]
 
@@ -31,7 +31,7 @@ def get_alignment_error_metrics_as_data_frame(bam_file):
     Returns a pandas dataframe of edit distance and alignment length
     """
     metrics = pd.DataFrame(extract_alignment_error_metrics_from_bam(bam_file),
-                           columns=["EditDistance", "AlignmentLength"])
+                           columns=["QueryName", "EditDistance", "AlignmentLength"])
     metrics['AlignmentRate'] = metrics.apply(lambda x: 1 - x.EditDistance/x.AlignmentLength, axis='columns')
     return metrics
 

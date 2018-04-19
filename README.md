@@ -17,16 +17,18 @@
 5. [Kirston Barton](mailto:k.barton@garvan.org.au):
     - [HMW DNA on Nanopore](https://drive.google.com/open?id=1HAXkELHUmEcNlgDcumCxbdw8cUB9wx6u)
 6. [Alexis Lucattini](mailto:alexis.lucattini@agrf.org.au):
-    - [Alignments, Quirks, Methylation and Assembly](https://google.com)
+    - [Alignments, Quirks, Methylation and Assembly](https://alexiswl.github.io/presentations/nanopore_dunedin/nanopore_dunedin.html)
 
 ## Tutorials
 1. [Handling MinION data from your laptop](https://alexiswl.github.io/ASimpleNanoporeTutorial/running_poreduck.html)
-2. [Handling fast5 data on a server](./docs/vagrant_setup.md)
+2. [Setting up a virtual environment](./docs/vagrant_setup.md)
+3. [Handling fast5 data on a server](./docs/workshop/tutorial.html)
 
 ## Information for Participants
 ### Etherpad link
-Etherpad is a simple online editor which we will use as a discussion forum in the workshops.
-[Click here](https://etherpad.net/p/nanopore-dunedin) to view our etherpad
+Etherpad is a simple online editor which we will use as a discussion forum in the workshops.  
+[Click here](https://etherpad.net/p/nanopore-dunedin) to view our etherpad.  
+[Click here](./docs/workshop/tutorial.html) for the tutorial Markdown sheet.
 
 ### Laptop requirements
 Platform: Windows 7+, MacOS, Ubuntu 14.04+  
@@ -56,5 +58,5 @@ Platform: Windows 7+, MacOS, Ubuntu 14.04+
 + [Angela Hendry](mailto:genomics.aotearoa@otago.ac.nz)  
 + [Andy Nilsen](mailto:andy.nilsen@otago.ac.nz)  
 
-## Sponsors
-List of sponsors
+## Thanks to
+[Genomics Aotearoa](https://www.otago.ac.nz/biochemistry/research/themes/otago673820.html)
