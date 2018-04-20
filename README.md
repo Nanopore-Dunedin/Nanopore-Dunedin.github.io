@@ -1,9 +1,6 @@
 ## Welcome to the Nanopore Dunedin Workshop 2018
 
-## Structure
-1. [Day 1](./docs/Structure.md#Day1)
-2. [Day 2](./docs/Structure.md#Day2)
-3. [Day 3](./docs/Structure.md#Day3)
+## [Schedule] (./docs/Structure.md)
 
 ## Presentations
 1. [Simone Cree](mailto:simone.macmil@otago.ac.nz):
@@ -16,6 +13,7 @@
     - [TBA](link)
 5. [Kirston Barton](mailto:k.barton@garvan.org.au):
     - [HMW DNA on Nanopore](https://drive.google.com/open?id=1HAXkELHUmEcNlgDcumCxbdw8cUB9wx6u)
+    - Lab session: [QCing your DNA before a library prep](https://drive.google.com/open?id=1BExiW2u-kUa-p0dGqZRX3785QszLcF4L)
 6. [Alexis Lucattini](mailto:alexis.lucattini@agrf.org.au):
     - [Alignments, Quirks, Methylation and Assembly](https://alexiswl.github.io/presentations/nanopore_dunedin/nanopore_dunedin.html)
 
