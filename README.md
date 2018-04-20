@@ -13,14 +13,14 @@ Welcome to website for the Genomics Aotearoa ONT MinION workshop, which ran at t
 - [Chris Winefield](mailto:Christopher.Winefield@lincoln.ac.nz):
     - [Oxford Nanopore Sequencing in recalcitrant plant species](https://drive.google.com/file/d/1S-2qns28s-hQkldCxjQ_JsTGzD4Zrwej/view?usp=sharing)
 - [Benjamin Schwessinger](mailto:Benjamin.Schwessinger@anu.edu.au):
-    - [TBA](link)
+  - [TBA](link)
 - [Louise Judd](mailto:lmj@unimelb.edu.au):
-    - [TBA](link)
+  - [TBA](link)
 - [Kirston Barton](mailto:k.barton@garvan.org.au):
-    - [HMW DNA on Nanopore](https://drive.google.com/open?id=1HAXkELHUmEcNlgDcumCxbdw8cUB9wx6u)
-    - Lab session: [QCing your DNA before a library prep](https://drive.google.com/open?id=1BExiW2u-kUa-p0dGqZRX3785QszLcF4L)
+  - [HMW DNA on Nanopore](https://drive.google.com/open?id=1HAXkELHUmEcNlgDcumCxbdw8cUB9wx6u)
+  - Lab session: [QCing your DNA before a library prep](https://drive.google.com/open?id=1BExiW2u-kUa-p0dGqZRX3785QszLcF4L)
 - [Alexis Lucattini](mailto:alexis.lucattini@agrf.org.au):
-    - [Alignments, Quirks, Methylation and Assembly](https://alexiswl.github.io/presentations/nanopore_dunedin/nanopore_dunedin.html)
+  - [Alignments, Quirks, Methylation and Assembly](https://alexiswl.github.io/presentations/nanopore_dunedin/nanopore_dunedin.html)
 
 ## Tutorials
 1. [Handling MinION data from your laptop](https://alexiswl.github.io/ASimpleNanoporeTutorial/running_poreduck.html)
