@@ -38,4 +38,5 @@
 + [Andy Nilsen](mailto:andy.nilsen@otago.ac.nz)  
 
 ## Thanks to
-[Genomics Aotearoa](https://www.otago.ac.nz/biochemistry/research/themes/otago673820.html)
+![Genomics Aotearoa](./docs/assets/GA-Wide-Colour-1200px.jpg)
+
