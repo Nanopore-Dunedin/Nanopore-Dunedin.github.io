@@ -33,7 +33,11 @@ Welcome to website for the Genomics Aotearoa ONT MinION workshop, which ran at t
 ## Course materials
 - [Sample QC and library prep results PDF](https://drive.google.com/open?id=1QZqew-GirWuYyxb_RQUlB8RDG8qiYBzm)
 - [Sample and sequencing spreadsheet](https://drive.google.com/open?id=1vT_okUPXPBR4ynXj1cv7S4arH_gUkZ1C)
-	
+
+## Links
+- **Nanopore group on [protocols.io](https://www.protocols.io/groups/minion-user-group-with-fungi-and-plants-on-their-mind)**
+- Olin's [ultra cheap magnetic rack](http://samandtomindustrys.science/borchure.html)
+
 ## Organisers
 + [Tom Harrop](mailto:tom.harrop@otago.ac.nz)  
     - [Welcome slides](./docs/slides/welcome.pdf)
