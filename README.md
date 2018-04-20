@@ -1,6 +1,8 @@
 ## Welcome to the Nanopore Dunedin Workshop 2018
 
-## [Schedule] (./docs/Structure.md)
+## Schedule
+
+[Click here](./docs/Structure.md)
 
 ## Presentations
 1. [Simone Cree](mailto:simone.macmil@otago.ac.nz):
@@ -23,32 +25,11 @@
 3. [Handling fast5 data on a server](./docs/workshop/tutorial.html)
 
 ## Information for Participants
-### Etherpad link
-Etherpad is a simple online editor which we will use as a discussion forum in the workshops.  
-[Click here](https://etherpad.net/p/nanopore-dunedin) to view our etherpad.  
-[Click here](./docs/workshop/tutorial.html) for the tutorial Markdown sheet.
+[Click here](./docs/Info.md)
 
-### Laptop requirements
-Platform: Windows 7+, MacOS, Ubuntu 14.04+  
-*Sequencing laptop requirements*:
-  + Hardware:
-    + USB-A port
-    + Wifi connection
-  + Software:
-    + MinKNOW 
-    + Docker
-      + Windows/Mac - Specifically 'Docker toolbox'
-      + Ubuntu - Docker
-    + Kitematic
-    
-*Analysis laptop requirements*: 
-  + Hardware:
-    + Wifi connection
-  + Software:
-    + Vagrant
-    + VirtualBox
-    + *Windows 10 users may need to uninstall Hyper-V in order to use Vagrant and VirtualBox*
-	+ Atom (Optional text/code editor)
+## Course materials
+- [Sample QC and library prep results PDF](https://drive.google.com/open?id=1QZqew-GirWuYyxb_RQUlB8RDG8qiYBzm)
+- [Sample and sequencing spreadsheet](https://drive.google.com/open?id=1vT_okUPXPBR4ynXj1cv7S4arH_gUkZ1C)
 	
 ## Organisers
 + [Tom Harrop](mailto:tom.harrop@otago.ac.nz)  
