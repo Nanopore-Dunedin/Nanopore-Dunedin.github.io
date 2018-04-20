@@ -1,4 +1,7 @@
-## Welcome to the Nanopore Dunedin Workshop 2018
+
+![Genomics Aotearoa](./docs/assets/GA-Wide-Colour-1200px.jpg)
+
+Welcome to website for the Genomics Aotearoa ONT MinION workshop, which ran at the University of Otago, Dunedin, from 17th--19th April, 2018.
 
 ## Schedule
 
@@ -36,7 +39,3 @@
     - [Welcome slides](./docs/slides/welcome.pdf)
 + [Angela Hendry](mailto:genomics.aotearoa@otago.ac.nz)  
 + [Andy Nilsen](mailto:andy.nilsen@otago.ac.nz)  
-
-## Thanks to
-![Genomics Aotearoa](./docs/assets/GA-Wide-Colour-1200px.jpg)
-
