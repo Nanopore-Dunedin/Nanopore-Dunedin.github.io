@@ -1,3 +1,4 @@
-theme: jekyll-theme-cayman
-title: [Nanopore Dunedin!]
-description: [Nanopore Sequencing Workshop Tues April 17th - Thurs April 19th 2018]
+theme: jekyll-theme-minimal
+title: [Nanopore Dunedin]
+description: [Genomics Aotearoa ONT MinION workshop, University of Otago, April 17th-19th 2018]
+logo: [./docs/assets/GA-Wide-Colour-1200px.jpg]
