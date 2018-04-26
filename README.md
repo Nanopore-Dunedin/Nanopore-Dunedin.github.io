@@ -30,7 +30,10 @@ Welcome to website for the Genomics Aotearoa ONT MinION workshop, which ran at t
 ## Information for Participants
 [Click here](./docs/Info.md)
 
-## Course materials
+## Course results
+
+![Sequencing stats](./docs/assets/stats.png)
+
 - [Sample QC and library prep results PDF](https://drive.google.com/open?id=1QZqew-GirWuYyxb_RQUlB8RDG8qiYBzm)
 - [Sample and sequencing spreadsheet](https://drive.google.com/open?id=1vT_okUPXPBR4ynXj1cv7S4arH_gUkZ1C)
 
