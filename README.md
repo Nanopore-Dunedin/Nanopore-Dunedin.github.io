@@ -13,7 +13,7 @@ Welcome to website for the Genomics Aotearoa ONT MinION workshop, which ran at t
 - [Chris Winefield](mailto:Christopher.Winefield@lincoln.ac.nz):
     - [Oxford Nanopore Sequencing in recalcitrant plant species](https://drive.google.com/file/d/1S-2qns28s-hQkldCxjQ_JsTGzD4Zrwej/view?usp=sharing)
 - [Benjamin Schwessinger](mailto:Benjamin.Schwessinger@anu.edu.au):
-  - [TBA](link)
+  - [Insights into DNA extraction and library preparation for Nanopore sequencing on the MinION](https://drive.google.com/open?id=1jBrELEcyI9zFC8L7Kb0t4kuNmLj-tbhF)
 - [Louise Judd](mailto:lmj@unimelb.edu.au):
   - [TBA](link)
 - [Kirston Barton](mailto:k.barton@garvan.org.au):
