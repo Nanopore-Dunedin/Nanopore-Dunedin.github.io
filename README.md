@@ -30,7 +30,7 @@ Welcome to website for the Genomics Aotearoa ONT MinION workshop, which ran at t
 ## Information for Participants
 [Click here](./docs/Info.md)
 
-## Course results
+## Sequencing results
 
 ![Sequencing stats](./docs/assets/stats.png)
 
