@@ -39,7 +39,7 @@ Welcome to website for the Genomics Aotearoa ONT MinION workshop, which ran at t
 
 ## Links
 - **Nanopore group on [protocols.io](https://www.protocols.io/groups/minion-user-group-with-fungi-and-plants-on-their-mind)**
-- Olin's [ultra cheap magnetic rack](http://samandtomindustrys.science/borchure.html)
+- Olin's [~ultra cheap~ economical magnetic rack](http://samandtomindustrys.science/borchure.html)
 
 ## Organisers
 + [Tom Harrop](mailto:tom.harrop@otago.ac.nz)  
