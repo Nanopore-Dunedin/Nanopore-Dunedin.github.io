@@ -34,7 +34,7 @@ Welcome to website for the Genomics Aotearoa ONT MinION workshop, which ran at t
 
 - These are the stats for each run produced by Rob Lanfear's [MinIONQC.R](https://github.com/roblanf/minion_qc) script. 
 
-![Sequencing stats](./docs/assets/stats.png)
+![Sequencing stats](./docs/assets/qc_stats.png)
 
 - There's a `tar.gz` file [here](https://drive.google.com/open?id=1W2Gyt-PktL9w323SFdysV5ATU-dh8fK_) with all the plots the script produces. The meaning of each plot is nicely explained on Rob's [github repo](https://github.com/roblanf/minion_qc#output-details).
 
