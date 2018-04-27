@@ -32,7 +32,15 @@ Welcome to website for the Genomics Aotearoa ONT MinION workshop, which ran at t
 
 ## Sequencing results
 
+These are the stats for each run produced by Rob Lanfear's [MinIONQC.R](https://github.com/roblanf/minion_qc) script. 
+
 ![Sequencing stats](./docs/assets/stats.png)
+
+There's also a `tar.gz` file [here](https://drive.google.com/open?id=1W2Gyt-PktL9w323SFdysV5ATU-dh8fK_) with all the plots the script produces. The meaning of each plot is nicely explained on Rob's [github repo](https://github.com/roblanf/minion_qc#output-details).
+
+Here's the weighted read length histogram for each sample, showing all the reads and only the reads that passed the Q > 7 cutoff.
+
+!(Weighted histogram)[https://drive.google.com/open?id=1-GUAX1tAI1SQwLxLzHBpWFd9IZ814av_]
 
 - [Sample QC and library prep results PDF](https://drive.google.com/open?id=1QZqew-GirWuYyxb_RQUlB8RDG8qiYBzm)
 - [Sample and sequencing spreadsheet](https://drive.google.com/open?id=1vT_okUPXPBR4ynXj1cv7S4arH_gUkZ1C)
