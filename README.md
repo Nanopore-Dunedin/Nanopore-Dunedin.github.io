@@ -40,7 +40,7 @@ There's also a `tar.gz` file [here](https://drive.google.com/open?id=1W2Gyt-PktL
 
 Here's the weighted read length histogram for each sample, showing all the reads and only the reads that passed the Q > 7 cutoff.
 
-![Weighted histogram](https://drive.google.com/open?id=1-GUAX1tAI1SQwLxLzHBpWFd9IZ814av_)
+![Weighted histogram](./docs/assets/weighted-hist.pdf)
 
 You can also find the sample QC and library yield at the following links, to compare to the sequencing results:
 - [Sample QC and library prep results PDF](https://drive.google.com/open?id=1QZqew-GirWuYyxb_RQUlB8RDG8qiYBzm)
