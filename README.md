@@ -48,6 +48,7 @@ Welcome to website for the Genomics Aotearoa ONT MinION workshop, which ran at t
 
 ## Links
 - **Nanopore group on [protocols.io](https://www.protocols.io/groups/minion-user-group-with-fungi-and-plants-on-their-mind)**
+  + [Insect HMW DNA protocol](http://dx.doi.org/10.17504/protocols.io.pnwdmfe) used to extract samples 1--10
 - Olin's <s>ultra cheap</s> [reasonably priced magnetic rack](http://samandtomindustrys.science/borchure.html)
 
 ## Organisers
