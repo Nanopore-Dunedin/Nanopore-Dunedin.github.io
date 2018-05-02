@@ -20,7 +20,7 @@ Welcome to website for the Genomics Aotearoa ONT MinION workshop, which ran at t
   - [HMW DNA on Nanopore](https://drive.google.com/open?id=1HAXkELHUmEcNlgDcumCxbdw8cUB9wx6u)
   - Lab session: [QCing your DNA before a library prep](https://drive.google.com/open?id=1BExiW2u-kUa-p0dGqZRX3785QszLcF4L)
 - [Alexis Lucattini](mailto:alexis.lucattini@agrf.org.au):
-  - [Alignments, Quirks, Methylation and Assembly](https://alexiswl.github.io/presentations/nanopore_dunedin/nanopore_dunedin.html)
+  - [Alignments, Quirks, and Assembly](https://alexiswl.github.io/presentations/nanopore_dunedin/nanopore_dunedin.html)
 
 ## Tutorials
 1. [Handling MinION data from your laptop](https://alexiswl.github.io/ASimpleNanoporeTutorial/running_poreduck.html)
